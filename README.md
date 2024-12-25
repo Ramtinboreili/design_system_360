@@ -26,7 +26,7 @@ A Flutter design system package to streamline the UI development process with re
 Add the following line to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  design_system_360: ^1.0.0''
+  design_system_360: ^1.0.0
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ void main() {
   ));
 }
 
-
+![usage](code.png)
 
 ## Additional information
 
