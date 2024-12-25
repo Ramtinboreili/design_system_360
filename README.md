@@ -11,29 +11,45 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# design_system_360
+
+A Flutter design system package to streamline the UI development process with reusable components, custom themes, and accessible design patterns.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Predefined themes (light)
+- Custom typography and color schemes
+- Reusable widgets like buttons, cards, etc.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the following line to your `pubspec.yaml` file:
+```yaml
+dependencies:
+  design_system_360: ^1.0.0''
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+import 'package:design_system_360/design_system_360.dart';
 
-```dart
-const like = 'sample';
-```
+void main() {
+  runApp(MaterialApp(
+    theme: AppTheme.lightTheme,
+    home: Scaffold(
+      appBar: AppBar(title: const Text('Design System Example')),
+      body: Center(
+        child: AppButton(
+          label: 'Click Me',
+          onPressed: () => print('Button Pressed'),
+        ),
+      ),
+    ),
+  ));
+}
+
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+we want to improve it day by day
