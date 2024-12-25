@@ -7,3 +7,6 @@
 
 ## 1.0.1
 - Read Me done
+
+## 1.0.2
+- license MIT
