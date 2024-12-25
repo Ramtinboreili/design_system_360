@@ -1,3 +1,6 @@
 ## 0.0.1
+- first initialize
+## 1.0.0
 
-* TODO: Describe initial release.
+- Initial release of `design_system_360`.
+- Includes basic theme, typography, colors, and a custom button widget.
